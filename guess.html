@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noteskey</title>
+    <link rel="stylesheet" href="noteskey_css.css">
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">
+</head>
+<body>
+    <h1 id="heading">Noteskey</h1>
+    <div class="background"></div>
+    <div class="block">
+     <div class="container">
+        <h2 >add the pop</h2>
+        <h3 >lavanya</h3>
+        <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, natus qui. Quia fuga nobis dolore rerum, iure placeat unde voluptates praesentium aperiam harum eos! Consectetur, commodi? Aliquid, molestias libero? A!</p>
+        <button onclick="remove(event)">Delete</button>
+     </div>
+    </div>
+    <div class="notes_container"><h3 class="notes">add notes</h3>
+    <button class="add" onclick="adds()">+</button></div>
+    <div class="pop_page"></div>
+    <div class="pop_box">
+        <h2>Add the content</h2>
+        <form >
+            <input type="text" placeholder="enter title" id="title">
+            <input type="text" placeholder="enter author" id="author">
+            <textarea placeholder="short notes" id="description"></textarea>
+            <button id="add_content">ADD</button>
+            <button id="Delete_content">CLOSE</button>
+        </form>
+    </div>
+    <script src="noteskey_js.js">
+    </script>
+</body>
+</html>
